@@ -1,0 +1,168 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Azonix;
+    src: url(azonix-font\Azonix-1VB0.otf);
+}
+
+html {
+    background: #1E1E1E;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.w-full {
+    width: 100%;
+}
+
+a {
+    color: rgb(133, 125, 125);
+    text-decoration: none;
+    padding: 50px;
+    padding-top: 50px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a:first-of-type {
+    margin-left: 400px;
+}
+
+a:hover {
+    color: white;
+}
+
+element.style {
+    will-change: transform;
+    transform: perspective(1000px) rotateX(-4.79deg) rotateY(0.91deg) scale3d(1, 1, 1);
+}
+
+.headline {
+    font-family: Azonix;
+    font-weight: 300;
+
+    color: #727a7a;
+    font-size: 40px;
+    line-height: 72px;
+    padding-bottom: 0px;
+    max-width: 800px;
+}
+
+span {
+    color: white;
+    max-width: 800px;
+
+}
+
+#highlight {
+    background: rgba(64, 224, 208, 0.326);
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.abs {
+    position: absolute;
+    left: 125px;
+    top: 197px;
+}
+
+div img {
+    display: inline;
+    height: 50px;
+    margin: 20px;
+}
+
+
+
+#aboutme p {
+    max-width: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    text-align: justify;
+
+}
+
+#resume img {
+    display: inline-block;
+    height: 800px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px;
+
+}
+
+h2 {
+    font-family: Azonix;
+    font-size: large;
+    font-weight: 400;
+    color: #727a7a;
+    margin-top: 500px;
+    margin-left: 67px;
+    margin-bottom: 400px;
+    margin-right: 100px;
+    display: inline;
+    font-size: 3rem;
+
+}
+
+#resume {
+    background: rgba(64, 224, 208, 0.233);
+    color: white;
+    padding: 50px;
+}
+
+#resume h2 {
+    color: white;
+    font-size: 3rem;
+
+}
+.socials h2{
+    margin-top: 130px;
+    font-size: 3rem;
+}
+.socials a{
+    color:  rgba(64, 224, 208, 0.358);
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 0px;
+    padding: 30px;;
+}
+.socials a:hover{
+    color: #727a7a;
+}
+
+.socials span{
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    display: inline;
+    color: rgba(64, 224, 208, 0.233);
+}
+#main{
+    height:300px;
+    width: 440px;
+    margin-left: 586px;
+}

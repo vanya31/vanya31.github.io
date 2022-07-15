@@ -1,0 +1,96 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Azonix;
+    src: url(azonix-font\Azonix-1VB0.otf);
+}
+
+html {
+    background: #1E1E1E;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.z-10 {
+    z-index: 11;
+}
+
+.w-full {
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    padding-top: 50px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 11;
+
+}
+
+a:first-of-type {
+    margin-left: 400px;
+}
+
+a:hover {
+    color: white;
+}
+div img {
+    display: inline;
+    height: 50px;
+    margin: 20px;
+}
+.hero {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50% -50%);
+}
+
+.headline {
+    font-family: Azonix;
+    font-weight: 300;
+    color: white;
+    margin-top: 90px;
+    margin-left: 300px;
+    font-size: 5rem;
+
+}
+
+#sec1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(./images/scott-graham-5fNmWej4tAA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    top: -120px;
+    z-index: 10;
+}
+.certif{
+    height:247px;
+    width:365px;
+}
+.certif:first-of-type{
+    margin-left: 50px;
+}
+#sec2 h2{
+    font-family: azonix;
+    margin-left:500px;
+    margin-bottom: 30px;
+    color: #727a7a;
+}
