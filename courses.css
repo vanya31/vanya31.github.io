@@ -92,5 +92,10 @@ div img {
     font-family: azonix;
     margin-left:500px;
     margin-bottom: 30px;
+    margin-top: 50px;
     color: #727a7a;
+}
+.width{
+    display: flex;
+  flex-wrap: wrap;
 }
