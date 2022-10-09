@@ -1,5 +1,4 @@
 * {
-
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -16,51 +15,44 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.navbar {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
 
-.flex {
+.secItem {
+    padding: 40px;
     display: flex;
 }
 
-.relative {
-    position: relative;
-}
-
-.z-10 {
-    z-index: 11;
-}
-
-.w-full {
-    width: 100%;
+.secItem li {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a {
     color: white;
     text-decoration: none;
-    padding: 50px;
-    padding-top: 50px;
-    margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: 11;
-
-}
-
-a:first-of-type {
-    margin-left: 400px;
 }
 
 a:hover {
-    color: white;
+    color: lightblue;
 }
+
 div img {
     display: inline;
     height: 50px;
     margin: 20px;
 }
+
 .hero {
     position: absolute;
-    top: 40%;
-    left: 10%;
-    transform: translate(-50% -50%);
+    top: 25em;
 }
 
 .headline {
@@ -74,28 +66,77 @@ div img {
 }
 
 #sec1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(./images/scott-graham-5fNmWej4tAA-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(./images/misc/scott-graham-5fNmWej4tAA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     top: -120px;
     z-index: 10;
 }
-.certif{
-    height:247px;
-    width:365px;
+
+.certif {
+    height: 247px;
+    width: 365px;
 }
-.certif:first-of-type{
+
+.certif:first-of-type {
     margin-left: 50px;
 }
-#sec2 h2{
+
+#sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    list-style-type: none;
+}
+
+h2 {
     font-family: azonix;
-    margin-left:500px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+    color: gray;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.width {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+}
+
+footer h2 {
+    font-size: large;
+    font-weight: 400;
+    color: #727a7a;
+    font-size: 3rem;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials a {
+    color: rgba(64, 224, 208, 0.358);
+    padding: 30px;
+}
+
+.socials a:hover {
     color: #727a7a;
 }
-.width{
-    display: flex;
-  flex-wrap: wrap;
+
+.socials span {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    display: inline;
+    color: rgba(64, 224, 208, 0.233);
 }

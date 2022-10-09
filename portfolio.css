@@ -1,7 +1,6 @@
 * {
-
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,39 +15,45 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-
-.flex {
-    display: flex;
-}
-
-.relative {
-    position: relative;
-}
-
-.z-10 {
-    z-index: 10;
-}
-
-.w-full {
-    width: 100%;
-}
-
 a {
     color: rgb(133, 125, 125);
     text-decoration: none;
-    padding: 50px;
-    padding-top: 50px;
-    margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
-a:first-of-type {
-    margin-left: 400px;
+.navbar {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.secItem {
+    padding: 40px;
+    display: flex;
+}
+
+.secItem li {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mainsec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 550px;
+    padding: 20px;
+}
+
+.mainsec img {
+    width: 600px;
+    height: 400px;
 }
 
 a:hover {
-    color: white;
+    color: lightblue;
 }
 
 element.style {
@@ -59,7 +64,6 @@ element.style {
 .headline {
     font-family: Azonix;
     font-weight: 300;
-
     color: #727a7a;
     font-size: 40px;
     line-height: 72px;
@@ -79,28 +83,22 @@ span {
     padding: 10px;
 }
 
-.abs {
-    position: absolute;
-    left: 125px;
-    top: 197px;
-}
-
 div img {
     display: inline;
     height: 50px;
     margin: 20px;
 }
 
-
+#aboutme {
+    height: 200px;
+}
 
 #aboutme p {
-    max-width: 400px;
-    margin-left: 200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: inline-block;
-    text-align: justify;
+    font-family: sans-serif;
+}
 
+#resume {
+    height: 1000px;
 }
 
 #resume img {
@@ -119,13 +117,7 @@ h2 {
     font-size: large;
     font-weight: 400;
     color: #727a7a;
-    margin-top: 500px;
-    margin-left: 67px;
-    margin-bottom: 400px;
-    margin-right: 100px;
-    display: inline;
     font-size: 3rem;
-
 }
 
 #resume {
@@ -139,30 +131,41 @@ h2 {
     font-size: 3rem;
 
 }
-.socials h2{
-    margin-top: 130px;
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+}
+
+footer h2 {
+    font-family: Azonix;
+    font-size: large;
+    font-weight: 400;
+    color: #727a7a;
     font-size: 3rem;
 }
-.socials a{
-    color:  rgba(64, 224, 208, 0.358);
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 0px;
-    padding: 30px;;
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.socials a:hover{
+
+.socials a {
+    color: rgba(64, 224, 208, 0.358);
+    padding: 30px;
+}
+
+.socials a:hover {
     color: #727a7a;
 }
 
-.socials span{
-    margin:20px;
+.socials span {
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     display: inline;
     color: rgba(64, 224, 208, 0.233);
-}
-#main{
-    height:300px;
-    width: 440px;
-    margin-left: 586px;
 }
