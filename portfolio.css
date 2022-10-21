@@ -18,7 +18,7 @@ html {
 a {
     color: rgb(133, 125, 125);
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Azonix;
 }
 
 .navbar {
@@ -47,13 +47,16 @@ a {
     padding: 20px;
 }
 
-.mainsec img {
+#abmimg img {
     width: 600px;
     height: 400px;
+    position: relative;
+    left: 581px;
+    bottom: 198px;
 }
 
 a:hover {
-    color: lightblue;
+    color: rgba(248, 243, 243, 0.687);
 }
 
 element.style {
@@ -64,12 +67,13 @@ element.style {
 .headline {
     font-family: Azonix;
     font-weight: 300;
-    color: #727a7a;
-    font-size: 40px;
+    color: #fcffff;
+    font-size: 60px;
     line-height: 72px;
     padding-bottom: 0px;
     max-width: 800px;
 }
+  
 
 span {
     color: white;
@@ -83,7 +87,7 @@ span {
     padding: 10px;
 }
 
-div img {
+.navbar img {
     display: inline;
     height: 50px;
     margin: 20px;
@@ -92,9 +96,16 @@ div img {
 #aboutme {
     height: 200px;
 }
+#aboutme h2{
+    margin-left: 50px;
+}
 
 #aboutme p {
-    font-family: sans-serif;
+    font-family: Lato;
+    font-weight: 100;
+    max-width: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 #resume {
@@ -129,8 +140,7 @@ h2 {
 #resume h2 {
     color: white;
     font-size: 3rem;
-
-}
+    font-family: Azonix;}
 
 footer {
     display: flex;
@@ -159,12 +169,14 @@ footer h2 {
 }
 
 .socials a:hover {
-    color: #727a7a;
+    color: rgba(248, 243, 243, 0.687);
 }
 
 .socials span {
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 10px;
+    padding: 30px;
+    font-family: Azonix;
     font-weight: 300;
     display: inline;
     color: rgba(64, 224, 208, 0.233);

@@ -4,9 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
         <link rel="stylesheet" href="portfolio.css">
         <link rel="preload" href="./azonix-font/Azonix-1VB0.otf">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <title>Vanya's Portfolio</title>
     </head>
     <body>
@@ -21,20 +23,23 @@
                 </ul>
             </div>
         </header>
-        <section class="mainsec"">
+        <section class="mainsec  typewriter">
             <div>
-                <h1 class="headline">Hi, I'm Vanya Verma<br><span> A <span id="highlight">Creative</span><br> Front End Developer.</span></h1>
+                <h1 class="headline" id="type"></span></h1>
             </div>
-            <img src="./images/body/imageedit_1_4676809686.png">
         </section>
         <section>
-            <div id="aboutme" class="mainsec">
+            <div id="aboutme">
                 <h2>About Me</h2>
-                <p>Funny, charismatic, outgoing gal who starts her day with a hot cup of coffee! I like to learn new things everyday!</p>
+                <p>Pre-final year student at UPES, Dehradun, pursuing B.Tech. CSE.
+                    A Cybersecurity and Web Development enthusiast.
+                    I have a receptive mind open to any and every bit of knowledge my environment has to offer. I'm a keen observer and an active listener. I'm an experienced content writer with skills in both web content writing and technical content writing.</p>
             </div>
+            <div id="abmimg" data-aos="flip-right">
+                <img src="./images/body/imageedit_1_4676809686.png"></div>
             <div id="resume" class="mainsec">
                 <h2><a href="./images/body/Black 7 White Minimalist Modern Graphic Designer Resume Template.png">My Resume</a></h2>
-                <img src="./images/body/Black 7 White Minimalist Modern Graphic Designer Resume Template.png" alt="my resume">
+                <div data-aos="zoom-in"><img src="./images/body/Black 7 White Minimalist Modern Graphic Designer Resume Template.png" alt="my resume"></div>
             </div>
         </section>
         <footer>
@@ -45,5 +50,7 @@
                 <a href="https://github.com/vanya31" target="_blank"><span class="sname">GitHub</span><i class="fa fa-github fa-3x"></i></a>
             </div>
         </footer>
+        <script src="node_modules/aos/dist/aos.js"></script>
+        <script src="portfolio.js"></script>
     </body>
 </html>
