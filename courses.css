@@ -59,9 +59,11 @@ div img {
     font-family: Azonix;
     font-weight: 300;
     color: white;
-    margin-top: 90px;
-    margin-left: 300px;
+    position: relative;
     font-size: 5rem;
+    left: 400px;
+    bottom: 155px;
+
 
 }
 

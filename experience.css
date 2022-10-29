@@ -21,6 +21,7 @@ html {
     display: flex;
     justify-content: space-between;
     height: 100px;
+    background-color: rgba(0, 0, 0, 0.368);
 }
 
 .secItem {
@@ -68,9 +69,10 @@ div img {
     font-family: Azonix;
     font-weight: 300;
     color: white;
-    margin-top: 90px;
-    margin-left: 200px;
+   position: relative;
     font-size: 5rem;
+    left: 318px;
+    bottom: 155px;
 
 }
 

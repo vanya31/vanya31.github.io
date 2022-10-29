@@ -102,11 +102,12 @@ span {
 
 #aboutme p {
     font-family: Lato;
-    font-weight: 100;
+    font-weight: 200;
     max-width: 400px;
-    margin-left: 100px;
-    margin-top: 100px;
-}
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: justify;}
 
 #resume {
     height: 1000px;
@@ -151,10 +152,13 @@ footer {
 
 footer h2 {
     font-family: Azonix;
-    font-size: large;
     font-weight: 400;
     color: #727a7a;
     font-size: 3rem;
+   position: relative;
+   left: 216px;
+   top: 32px;
+   margin: 50px;
 }
 
 .socials {
